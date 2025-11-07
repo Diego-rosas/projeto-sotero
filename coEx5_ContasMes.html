@@ -1,59 +1,60 @@
 <!DOCTYPE html>
 <html lang="en">
-  <head>
-    <meta charset="UTF-8" />
-    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Gestão Financeira</title>
-    <link rel="stylesheet" href="coEx5_ContasMes.css" />
-  </head>
-  <body>
-    <div class="divPrincipal">
-      <h1 class="h1gestao">GESTOR FINANCEIRO DIGITAL</h1>
-      <div class="divMaior">
-        <div class="divBloco">
-          <h1 class="h1contas">Contas Mensais</h1>
-          <div class="divInputs">
-            <p>
-              Salário mensal R$ :
-              <input type="number" name="" id="inSalario" />
-            </p>
-            <p>
-              Descrição da conta:
-              <input type="text" name="inDescricao" id="inDescricao" />
-            </p>
-            <p>
-              Valor da conta R$ :
-              <input type="number" name="inValor" id="inValor" />
-            </p>
-            <input
-              class="botao"
-              type="button"
-              value="Registrar Conta"
-              id="btRegistrarConta"-
-            />
-          </div>
-          <div class="divListaLargura">
-            <pre id="outSalario">
-              Exibir Recursos Restantes - (Salário - Contas)</pre>
-            <pre id="outValorTotal">Soma das Contas Mensais</pre>
-          </div>
+<head>
+  <meta charset="UTF-8" />
+  <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Gestão Financeira</title>
+  <link rel="stylesheet" href="coEx5_ContasMes.css" />
+</head>
+<body>
+  <div class="divPrincipal">
+    <h1 class="h1gestao">GESTOR FINANCEIRO DIGITAL</h1>
+    <div class="divMaior">
+      <div class="divBloco">
+        <h1 class="h1contas">Contas Mensais</h1>
+        <div class="divInputs">
+          <p>
+            Salário mensal R$ :
+            <input type="number" name="" id="inSalario" />
+          </p>
+          <p>
+            Descrição da conta:
+            <input type="text" name="inDescricao" id="inDescricao" />
+          </p>
+          <p>
+            Valor da conta R$ :
+            <input type="number" name="inValor" id="inValor" />
+          </p>
+          <input
+            class="botao"
+            type="button"
+            value="Registrar Conta"
+            id="btRegistrarConta"-
+          />
         </div>
-
-        <div class="img">
-          <img src="/meiGestaoFinanceira.avif" alt="" />
-              <div>
-                <!--<pre id="outLanches">Gastos com Laches</pre>-->
-                <!-- <pre id="outListarContas">Exibir Contas Mensais</pre>
-               <pre id="outListarValor">Exibir Valor Contas</pre>
-                <select id="listarContas" size="10"><option selected="LISTAR CONTAS"></option></select>-->
-               <textarea id="outListarValor" cols="30" rows="70"></textarea>
-              </div>
+        <div class="divListaLargura">
+          <pre id="outSalario">
+            Exibir Recursos Restantes - (Salário - Contas)</pre>
+          <pre id="outValorTotal">Soma das Contas Mensais</pre>
+        </div>
       </div>
+
+      <div class="img">
+        <img src="/meiGestaoFinanceira.avif" alt="" />
+            <div>
+              <!--<pre id="outLanches">Gastos com Laches</pre>-->
+              <!-- <pre id="outListarContas">Exibir Contas Mensais</pre>
+             <pre id="outListarValor">Exibir Valor Contas</pre>
+              <select id="listarContas" size="10"><option selected="LISTAR CONTAS"></option></select>-->
+             <textarea id="outListarValor" cols="30" rows="70"></textarea>
+            </div>
     </div>
-    <div>
-      <footer>&copy Copyright - Todos os direitos reservados - Sotero 2023</footer>
-    </div>
-    <script src="coEx4_ContasMes.js"></script>
-  </body>
+  </div>
+  <div>
+    <footer>&copy Copyright - Todos os direitos reservados - Sotero 2023</footer>
+  </div>
+  <script src="coEx4_ContasMes.js"></script>
+</body>
 </html>
+
